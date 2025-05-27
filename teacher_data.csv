@@ -1,21 +1,21 @@
 teacher_ID,A SEC,B SEC,C SEC,D SEC,E SEC,F SEC
-1,311,312,313,,,315
-2,321,,323,324,,326
-3,,332,,334,335,
-4,341,342,343,,345,346
-5,351,352,,354,,356
-6,,362,363,364,365,
-7,371,,373,374,375,
-8,381,382,383,384,,386
-9,391,,393,394,395,396
-10,,302,303,304,305,306
-11,307,308,309,310,311,
-12,312,313,314,315,316,317
-13,,323,324,325,326,327
-14,331,332,333,,335,336
-15,,342,343,344,345,346
-16,351,,353,354,355,356
-17,361,362,,364,365,
-18,371,372,373,374,,376
-19,381,,383,384,385,386
-20,,392,393,394,395,396
+1,,Math,Economics,Chemistry,Economics,Geography
+2,Math,Physical Education,,Sanskrit,,Hindi
+3,Economics,Geography,Hindi,Psychology,Music,Hindi
+4,Sanskrit,,English,Music,Biology,Biology
+5,Physics,Sanskrit,Geography,Math,,Business Studies
+6,Physical Education,Computer,Music,Music,,Economics
+7,,Sanskrit,Biology,English,Civics,Chemistry
+8,Computer,Business Studies,Hindi,Environmental Science,Biology,
+9,Biology,,,Math,Geography,Civics
+10,,Business Studies,Sanskrit,Math,,Civics
+11,Computer,Physics,Chemistry,Sanskrit,Geography,
+12,Business Studies,Computer,Physical Education,Math,,Civics
+13,Hindi,Psychology,Sanskrit,English,Physics,Environmental Science
+14,Math,Hindi,,History,Economics,Physical Education
+15,Civics,Physics,,Physical Education,Economics,Psychology
+16,Physical Education,Environmental Science,Physical Education,History,Environmental Science,Math
+17,Sanskrit,Physics,,Music,,Music
+18,Psychology,English,Chemistry,Economics,Physics,Computer
+19,Math,Biology,Business Studies,History,,Physical Education
+20,Psychology,Business Studies,English,Computer,Sanskrit,Math
