@@ -759,7 +759,7 @@ int main() {
             switch (choice) {
                 case 1:
                     // View Timetable or Generate Timetable based on the role
-                    if (role == "hod" || role == "student") {
+                    if (role == "hod") {
                         // Display timetable
                         auth.displaytable("timetables");
                     } else if (role == "admin") {
@@ -767,6 +767,9 @@ int main() {
                         graphProcessor.mergeGraphs(teacherSubjects.getTeacherSubjectsMap());
                         timeTableGenerator.generateTimetable(graphProcessor, sections);
                         timeTableGenerator.writeTimetableToCSV(sections);
+                    } else if(role == "teacher" || role == "student") {
+                        //Display approved timetable
+                        auth.displaytable("approved");
                     }
                     break;
 
